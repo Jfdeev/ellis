@@ -31,3 +31,6 @@ class Curso(Base):
     descricao = Column(Text)  
 
     matriculas = relationship("Matricula", back_populates="curso")
+
+## PALAVRAS CHAVE CERTIFICADO
+## MARVEL
